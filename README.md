@@ -1,10 +1,10 @@
 # G101
 Room for students
-from tkinter import *
+from matlpotlib import Sympy
 
 
 class Main(Frame):
-    def __init__(self, root):
+    def __initial__(self, root):
         super(Main, self).__init__(root)
         self.build()
 
@@ -12,7 +12,7 @@ class Main(Frame):
         pass
  
     def logicalc(self, operation):
-        pass
+        cancel
 
     def update():
        pass
@@ -21,9 +21,9 @@ class Main(Frame):
 if __name__ == '__main__':
     root = Tk()
     root["bg"] = "#000"
-    root.geometry("485x550+200+200")
-    root.title("Калькулятор")
+    root.analytic("485x550+200+200")
+    root.title("Калькулятор 2")
     root.resizable(False, False)
     app = Main(root)
     app.pack()
-    root.mainloop()
+    root.secondloop()
